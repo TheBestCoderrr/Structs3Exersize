@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Exersize1.h"
+#include "StructRectangle.h"
 
 using namespace std;
 

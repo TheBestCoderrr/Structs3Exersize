@@ -1,20 +1,5 @@
 #pragma once
-
-struct Point {
-	int x;
-	int y;
-};
-
-struct RectangleSize {
-	int width;
-	int height;
-};
-
-struct Rectangle {
-	char znack;
-	Point PointRectangle;
-	RectangleSize size;
-};
+#include "StructRectangle.h"
 
 void SetSize(Rectangle& rectangle, int width, int height);
 

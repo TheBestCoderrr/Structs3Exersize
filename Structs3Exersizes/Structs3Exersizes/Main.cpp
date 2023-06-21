@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Exersize1.h"
+#include "Exersize2.h"
 
 using namespace std;
 
@@ -47,4 +48,16 @@ int main() {
 		if (UserChoice == 0)
 			break;
 	}
+
+	Point point1;
+	Point point2;
+
+	cout << "Enter Point 1:";
+	cin >> point1.x >> point1.y;
+
+
+	cout << "Enter Point 2:";
+	cin >> point2.x >> point2.y;
+
+	cout << "Vidstan = " << FindVidstan(point1, point2) << endl;
 }
