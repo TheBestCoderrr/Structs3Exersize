@@ -129,13 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Exersize1.cpp" />
     <ClCompile Include="Exersize2.cpp" />
+    <ClCompile Include="Exersize3.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exersize1.h" />
     <ClInclude Include="Exersize2.h" />
+    <ClInclude Include="Exersize3.h" />
     <ClInclude Include="StructPoint.h" />
     <ClInclude Include="StructRectangle.h" />
+    <ClInclude Include="StructsFaction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
